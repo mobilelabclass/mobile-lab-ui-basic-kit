@@ -45,6 +45,8 @@
 	<array>
 		<string>Jura-Regular.ttf</string>
 		<string>Jura-Bold.ttf</string>
+		<string>Swiss911-XC.ttf</string>
+		<string>Swiss911-UC.ttf</string>
 	</array>
 </dict>
 </plist>

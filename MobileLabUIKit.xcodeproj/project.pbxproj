@@ -8,24 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		6A2C69841FD5024100B47D4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2C69831FD5024100B47D4F /* AppDelegate.swift */; };
-		6A2C69861FD5024100B47D4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2C69851FD5024100B47D4F /* ViewController.swift */; };
+		6A2C69861FD5024100B47D4F /* CustomUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2C69851FD5024100B47D4F /* CustomUIViewController.swift */; };
 		6A2C699D1FD502B900B47D4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C69971FD502B900B47D4F /* Assets.xcassets */; };
 		6A2C699E1FD502B900B47D4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C69981FD502B900B47D4F /* LaunchScreen.storyboard */; };
 		6A2C699F1FD502B900B47D4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C699A1FD502B900B47D4F /* Main.storyboard */; };
 		6A2C69A71FD5177500B47D4F /* Jura-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C69A61FD5177500B47D4F /* Jura-Regular.ttf */; };
 		6A2C69AB1FD52E1D00B47D4F /* Jura-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C69AA1FD52E1D00B47D4F /* Jura-Bold.ttf */; };
+		6AF040CA1FD5AAE70065185F /* DefaultUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF040C91FD5AAE70065185F /* DefaultUIViewController.swift */; };
+		6AF040CD1FD5BDDA0065185F /* Swiss911-UC.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6AF040CB1FD5BDD90065185F /* Swiss911-UC.ttf */; };
+		6AF040CE1FD5BDDA0065185F /* Swiss911-XC.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6AF040CC1FD5BDD90065185F /* Swiss911-XC.ttf */; };
+		6AF040D21FD5C4230065185F /* LCARSUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF040D11FD5C4230065185F /* LCARSUIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6A2C69801FD5024100B47D4F /* MobileLabUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileLabUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A2C69831FD5024100B47D4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6A2C69851FD5024100B47D4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6A2C69851FD5024100B47D4F /* CustomUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUIViewController.swift; sourceTree = "<group>"; };
 		6A2C69971FD502B900B47D4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A2C69991FD502B900B47D4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A2C699B1FD502B900B47D4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6A2C699C1FD502B900B47D4F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A2C69A61FD5177500B47D4F /* Jura-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jura-Regular.ttf"; sourceTree = "<group>"; };
 		6A2C69AA1FD52E1D00B47D4F /* Jura-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jura-Bold.ttf"; sourceTree = "<group>"; };
+		6AF040C91FD5AAE70065185F /* DefaultUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultUIViewController.swift; sourceTree = "<group>"; };
+		6AF040CB1FD5BDD90065185F /* Swiss911-UC.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Swiss911-UC.ttf"; sourceTree = "<group>"; };
+		6AF040CC1FD5BDD90065185F /* Swiss911-XC.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Swiss911-XC.ttf"; sourceTree = "<group>"; };
+		6AF040D11FD5C4230065185F /* LCARSUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCARSUIViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +67,9 @@
 			isa = PBXGroup;
 			children = (
 				6A2C69831FD5024100B47D4F /* AppDelegate.swift */,
-				6A2C69851FD5024100B47D4F /* ViewController.swift */,
+				6AF040C91FD5AAE70065185F /* DefaultUIViewController.swift */,
+				6A2C69851FD5024100B47D4F /* CustomUIViewController.swift */,
+				6AF040D11FD5C4230065185F /* LCARSUIViewController.swift */,
 				6A2C69961FD502B900B47D4F /* Resources */,
 			);
 			path = MobileLabUIKit;
@@ -68,11 +78,11 @@
 		6A2C69961FD502B900B47D4F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				6A2C69A31FD5163C00B47D4F /* Fonts */,
-				6A2C69971FD502B900B47D4F /* Assets.xcassets */,
-				6A2C69981FD502B900B47D4F /* LaunchScreen.storyboard */,
 				6A2C699A1FD502B900B47D4F /* Main.storyboard */,
+				6A2C69981FD502B900B47D4F /* LaunchScreen.storyboard */,
+				6A2C69971FD502B900B47D4F /* Assets.xcassets */,
 				6A2C699C1FD502B900B47D4F /* Info.plist */,
+				6A2C69A31FD5163C00B47D4F /* Fonts */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -80,6 +90,8 @@
 		6A2C69A31FD5163C00B47D4F /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				6AF040CB1FD5BDD90065185F /* Swiss911-UC.ttf */,
+				6AF040CC1FD5BDD90065185F /* Swiss911-XC.ttf */,
 				6A2C69AA1FD52E1D00B47D4F /* Jura-Bold.ttf */,
 				6A2C69A61FD5177500B47D4F /* Jura-Regular.ttf */,
 			);
@@ -145,7 +157,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AF040CE1FD5BDDA0065185F /* Swiss911-XC.ttf in Resources */,
 				6A2C69A71FD5177500B47D4F /* Jura-Regular.ttf in Resources */,
+				6AF040CD1FD5BDDA0065185F /* Swiss911-UC.ttf in Resources */,
 				6A2C699F1FD502B900B47D4F /* Main.storyboard in Resources */,
 				6A2C69AB1FD52E1D00B47D4F /* Jura-Bold.ttf in Resources */,
 				6A2C699D1FD502B900B47D4F /* Assets.xcassets in Resources */,
@@ -160,7 +174,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A2C69861FD5024100B47D4F /* ViewController.swift in Sources */,
+				6AF040D21FD5C4230065185F /* LCARSUIViewController.swift in Sources */,
+				6AF040CA1FD5AAE70065185F /* DefaultUIViewController.swift in Sources */,
+				6A2C69861FD5024100B47D4F /* CustomUIViewController.swift in Sources */,
 				6A2C69841FD5024100B47D4F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
