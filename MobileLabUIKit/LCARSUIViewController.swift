@@ -25,6 +25,10 @@ class LCARSUIViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-    
+
+    // Hide status bar.
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
 
 }

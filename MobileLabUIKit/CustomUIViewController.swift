@@ -50,6 +50,10 @@ class CustomUIViewController: UIViewController, UITextFieldDelegate  {
         super.didReceiveMemoryWarning()
     }
 
+    // Hide status bar.
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
 
     @IBAction func handleButton(_ sender: UIButton) {
         counter = counter + 1
