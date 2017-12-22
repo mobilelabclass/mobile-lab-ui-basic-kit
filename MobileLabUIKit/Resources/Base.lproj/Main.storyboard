@@ -109,16 +109,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="620.3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dr7-Ct-phG">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dr7-Ct-phG">
                                 <rect key="frame" x="16" y="148" width="382" height="96"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="96" id="b2S-42-Gsz"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="120"/>
-                                <color key="textColor" red="0.72821193933486938" green="0.25195959210395813" blue="0.14493271708488464" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="110"/>
+                                <color key="textColor" red="0.72941176470588232" green="0.25098039215686274" blue="0.14509803921568626" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TOTAL MILES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YI4-Tw-lBD">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TOTAL TIME" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YI4-Tw-lBD">
                                 <rect key="frame" x="16" y="260" width="382" height="36"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="36" id="35W-mX-Z2X"/>
@@ -127,12 +127,47 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ejP-dY-3mO">
+                                <rect key="frame" x="16" y="416" width="186.33333333333334" height="44"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="VOh-Ch-Nlx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="24"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="handleStartButton:" destination="C1x-Gg-gPe" eventType="touchUpInside" id="QWs-nJ-KZp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V9g-Vf-aud">
+                                <rect key="frame" x="211" y="416" width="186.33333333333337" height="44"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="cWz-hu-WMx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="24"/>
+                                <state key="normal" title="Reset">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="handleResetButton:" destination="C1x-Gg-gPe" eventType="touchUpInside" id="g6t-KC-97F"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="ARJ-42-JW0" firstAttribute="trailing" secondItem="V9g-Vf-aud" secondAttribute="trailing" constant="16" id="0cf-ZQ-y5q"/>
                             <constraint firstItem="YI4-Tw-lBD" firstAttribute="top" secondItem="dr7-Ct-phG" secondAttribute="bottom" constant="16" id="0yw-HS-t4d"/>
+                            <constraint firstItem="ejP-dY-3mO" firstAttribute="leading" secondItem="ARJ-42-JW0" secondAttribute="leading" constant="16" id="1xP-wf-moC"/>
+                            <constraint firstItem="V9g-Vf-aud" firstAttribute="width" secondItem="jdE-Ux-pNh" secondAttribute="width" multiplier="0.45" id="A2H-rN-xvq"/>
+                            <constraint firstItem="ejP-dY-3mO" firstAttribute="width" secondItem="jdE-Ux-pNh" secondAttribute="width" multiplier="0.45" id="EVx-JA-j72"/>
                             <constraint firstItem="ARJ-42-JW0" firstAttribute="trailing" secondItem="YI4-Tw-lBD" secondAttribute="trailing" constant="16" id="LFk-xj-7jy"/>
                             <constraint firstItem="dr7-Ct-phG" firstAttribute="leading" secondItem="ARJ-42-JW0" secondAttribute="leading" constant="16" id="SGK-wP-tss"/>
+                            <constraint firstItem="V9g-Vf-aud" firstAttribute="top" secondItem="YI4-Tw-lBD" secondAttribute="bottom" constant="120" id="SWY-DB-wzW"/>
+                            <constraint firstItem="ejP-dY-3mO" firstAttribute="top" secondItem="YI4-Tw-lBD" secondAttribute="bottom" constant="120" id="TOQ-GX-ccd"/>
                             <constraint firstItem="dr7-Ct-phG" firstAttribute="top" secondItem="ARJ-42-JW0" secondAttribute="top" constant="128" id="aKc-Wi-pTK"/>
                             <constraint firstItem="YI4-Tw-lBD" firstAttribute="leading" secondItem="ARJ-42-JW0" secondAttribute="leading" constant="16" id="egP-ca-KCy"/>
                             <constraint firstItem="ARJ-42-JW0" firstAttribute="trailing" secondItem="dr7-Ct-phG" secondAttribute="trailing" constant="16" id="sk4-JW-cOD"/>
@@ -140,6 +175,10 @@
                         <viewLayoutGuide key="safeArea" id="ARJ-42-JW0"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Sport" id="cPg-Fa-mQc"/>
+                    <connections>
+                        <outlet property="displayTimeLabel" destination="dr7-Ct-phG" id="Tsk-XA-cyd"/>
+                        <outlet property="startStopButton" destination="ejP-dY-3mO" id="6Zq-rO-hMQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HSf-0q-vkO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

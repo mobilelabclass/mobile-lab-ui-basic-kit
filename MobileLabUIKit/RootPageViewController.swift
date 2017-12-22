@@ -28,10 +28,19 @@ class RootPageViewController: UIPageViewController, UIPageViewControllerDataSour
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        // Set page view data source to current class.
         self.dataSource = self
- 
+
+        // Set initial view controller.
         if let firstViewController = viewControllerList.first {
             self.setViewControllers([firstViewController], direction: .forward, animated: true, completion: nil)
+        }
+    
+        // Prioritize UI slider control on touches versus paging the view.
+        for view in view.subviews {
+            if view is UIScrollView {
+                (view as? UIScrollView)?.delaysContentTouches = false
+            }
         }
     }
     
