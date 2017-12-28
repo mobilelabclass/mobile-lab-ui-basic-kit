@@ -51,6 +51,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A190AC41FF53CA2006A8097 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		6A2C69771FD5024100B47D4F = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +95,7 @@
 				6A2C69981FD502B900B47D4F /* LaunchScreen.storyboard */,
 				6A2C69971FD502B900B47D4F /* Assets.xcassets */,
 				6A2C699C1FD502B900B47D4F /* Info.plist */,
+				6A190AC41FF53CA2006A8097 /* Images */,
 				6A2C69A31FD5163C00B47D4F /* Fonts */,
 			);
 			path = Resources;
