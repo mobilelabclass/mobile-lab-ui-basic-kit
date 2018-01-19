@@ -50,14 +50,14 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eYO-V2-YUX">
-                                <rect key="frame" x="50" y="16" width="71.5" height="24"/>
+                                <rect key="frame" x="50" y="16" width="167.5" height="24"/>
                                 <color key="backgroundColor" red="0.80000000000000004" green="0.59999999999999998" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="24" id="9Ld-PO-Lmj"/>
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MOBILE LAB" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gQi-oN-mYT">
-                                <rect key="frame" x="131.5" y="15" width="189.5" height="28"/>
+                                <rect key="frame" x="227.5" y="15" width="93.5" height="28"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="28" id="nHK-KQ-3ww"/>
                                 </constraints>
@@ -82,7 +82,7 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="INTERACTIVE TELECOMM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R9W-Nl-u8S">
-                                <rect key="frame" x="54" y="602" width="261" height="37"/>
+                                <rect key="frame" x="54" y="602" width="192" height="37"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="37" id="NBg-M5-IlM"/>
                                 </constraints>
@@ -91,7 +91,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Ht-Gk-CLv">
-                                <rect key="frame" x="325" y="607" width="0.0" height="24"/>
+                                <rect key="frame" x="256" y="607" width="69" height="24"/>
                                 <color key="backgroundColor" red="0.80000000000000004" green="0.59999999999999998" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="24" id="nbW-pY-Ir9"/>
