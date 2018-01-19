@@ -23,7 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6A2C69801FD5024100B47D4F /* MobileLabUIBasicKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileLabUIBasicKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A2C69801FD5024100B47D4F /* UI Basic Kit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI Basic Kit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ABC83DB201272680016BF10 /* RootPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootPageViewController.swift; sourceTree = "<group>"; };
 		6ABC83DC201272680016BF10 /* DefaultUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultUIViewController.swift; sourceTree = "<group>"; };
 		6ABC83DF201272680016BF10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 		6A2C69811FD5024100B47D4F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6A2C69801FD5024100B47D4F /* MobileLabUIBasicKit.app */,
+				6A2C69801FD5024100B47D4F /* UI Basic Kit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -129,7 +129,7 @@
 			);
 			name = MobileLabUIBasicKit;
 			productName = MobileLabUIKit;
-			productReference = 6A2C69801FD5024100B47D4F /* MobileLabUIBasicKit.app */;
+			productReference = 6A2C69801FD5024100B47D4F /* UI Basic Kit.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -336,7 +336,7 @@
 				INFOPLIST_FILE = MobileLabUIBasicKit/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobilelabclass.MobileLabUIBasicKit;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "UI Basic Kit";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -353,7 +353,7 @@
 				INFOPLIST_FILE = MobileLabUIBasicKit/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobilelabclass.MobileLabUIBasicKit;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "UI Basic Kit";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
