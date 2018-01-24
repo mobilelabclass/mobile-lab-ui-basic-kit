@@ -28,7 +28,7 @@
         <!--LCARS-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="LCARSUIVC" id="BYZ-38-t0r" customClass="LCARSUIViewController" customModule="MobileLabUIKit" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LCARSUIVC" id="BYZ-38-t0r" customClass="LCARSUIViewController" customModule="UI_Basic_Kit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -97,14 +97,6 @@
                                     <constraint firstAttribute="height" constant="24" id="nbW-pY-Ir9"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OFZ-fZ-Xjm">
-                                <rect key="frame" x="127" y="143" width="120" height="120"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="120" id="W3O-Ys-YLk"/>
-                                    <constraint firstAttribute="height" constant="120" id="xqn-dl-anf"/>
-                                </constraints>
-                            </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BId-2N-0j3">
                                 <rect key="frame" x="50" y="286" width="275" height="44"/>
                                 <color key="backgroundColor" red="0.59999999999999998" green="0.40000000000000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -145,6 +137,13 @@
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="07-3215"/>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mobile-lab-symbol.png" translatesAutoresizingMaskIntoConstraints="NO" id="QW9-A7-dt2">
+                                <rect key="frame" x="107" y="103" width="160" height="160"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="Tlv-yn-iDZ"/>
+                                    <constraint firstAttribute="height" constant="160" id="nij-Tg-iVq"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -153,23 +152,23 @@
                             <constraint firstItem="gQi-oN-mYT" firstAttribute="leading" secondItem="eYO-V2-YUX" secondAttribute="trailing" constant="10" id="37Z-81-Gsh"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="R9W-Nl-u8S" secondAttribute="bottom" constant="28" id="3dM-wD-dkh"/>
                             <constraint firstItem="O92-VK-pt7" firstAttribute="leading" secondItem="gQi-oN-mYT" secondAttribute="trailing" constant="10" id="5LM-wi-5qJ"/>
-                            <constraint firstItem="BId-2N-0j3" firstAttribute="top" secondItem="OFZ-fZ-Xjm" secondAttribute="bottom" constant="23" id="CSV-3d-NV1"/>
                             <constraint firstItem="eYO-V2-YUX" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="16" id="JZn-RW-w7J"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3Bi-Km-sLE" secondAttribute="bottom" constant="36" id="Koc-r7-cBc"/>
                             <constraint firstItem="3Ht-Gk-CLv" firstAttribute="leading" secondItem="R9W-Nl-u8S" secondAttribute="trailing" constant="10" id="MYf-mD-Rdb"/>
-                            <constraint firstItem="OFZ-fZ-Xjm" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="NGL-yX-5c3"/>
-                            <constraint firstItem="OFZ-fZ-Xjm" firstAttribute="top" secondItem="gQi-oN-mYT" secondAttribute="bottom" constant="100" id="NLk-mQ-3vw"/>
                             <constraint firstItem="gsO-OM-ak7" firstAttribute="top" secondItem="BZn-02-cXE" secondAttribute="bottom" constant="8" id="NVH-Di-ZgQ"/>
                             <constraint firstItem="eYO-V2-YUX" firstAttribute="leading" secondItem="sHg-gW-Gib" secondAttribute="trailing" constant="6" id="Odl-IN-EBB"/>
                             <constraint firstItem="BZn-02-cXE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="Omf-2e-Mxa"/>
+                            <constraint firstItem="QW9-A7-dt2" firstAttribute="top" secondItem="gQi-oN-mYT" secondAttribute="bottom" constant="60" id="PMt-Yg-zTS"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zla-Sn-ihM" secondAttribute="trailing" constant="50" id="RfI-m7-zak"/>
                             <constraint firstItem="O92-VK-pt7" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="16" id="STc-Bh-min"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gsO-OM-ak7" secondAttribute="trailing" constant="50" id="SzJ-ZE-NUU"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BZn-02-cXE" secondAttribute="trailing" constant="50" id="Uaz-nw-wCo"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="szW-pC-Peu" secondAttribute="bottom" constant="36" id="Xcj-jn-ssr"/>
                             <constraint firstItem="sHg-gW-Gib" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="16" id="Y1x-Cg-yDI"/>
+                            <constraint firstItem="QW9-A7-dt2" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="YDZ-BN-WeF"/>
                             <constraint firstItem="BZn-02-cXE" firstAttribute="top" secondItem="zla-Sn-ihM" secondAttribute="bottom" constant="8" id="dwP-nh-5Qe"/>
                             <constraint firstItem="zla-Sn-ihM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="ejt-SN-dwF"/>
+                            <constraint firstItem="BId-2N-0j3" firstAttribute="top" secondItem="QW9-A7-dt2" secondAttribute="bottom" constant="23" id="fhy-DZ-5cV"/>
                             <constraint firstItem="gQi-oN-mYT" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="15" id="gdW-WE-9fG"/>
                             <constraint firstItem="szW-pC-Peu" firstAttribute="leading" secondItem="3Ht-Gk-CLv" secondAttribute="trailing" constant="6" id="iRZ-g2-waE"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="O92-VK-pt7" secondAttribute="trailing" constant="20" id="keh-ci-Cl6"/>
@@ -204,7 +203,7 @@
         <!--Sport-->
         <scene sceneID="Nc3-Sv-cIh">
             <objects>
-                <viewController storyboardIdentifier="SportUIVC" id="C1x-Gg-gPe" customClass="SportUIViewController" customModule="MobileLabUIKit" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SportUIVC" id="C1x-Gg-gPe" customClass="SportUIViewController" customModule="UI_Basic_Kit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jdE-Ux-pNh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -312,7 +311,7 @@
         <!--Root Page View Controller-->
         <scene sceneID="LkJ-fO-GOO">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="Hpw-WE-2ol" customClass="RootPageViewController" customModule="MobileLabUIKit" customModuleProvider="target" sceneMemberID="viewController"/>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="Hpw-WE-2ol" customClass="RootPageViewController" customModule="UI_Basic_Kit" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f5x-5K-VC0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-143" y="-91"/>
@@ -320,7 +319,7 @@
         <!--Custom-->
         <scene sceneID="BfL-Nn-ZQR">
             <objects>
-                <viewController storyboardIdentifier="CustomUIVC" id="Uaw-y3-Cow" customClass="CustomUIViewController" customModule="MobileLabUIKit" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CustomUIVC" id="Uaw-y3-Cow" customClass="CustomUIViewController" customModule="UI_Basic_Kit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cMH-Up-K51">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -487,7 +486,7 @@
         <!--Default-->
         <scene sceneID="trO-xf-9hK">
             <objects>
-                <viewController storyboardIdentifier="DefaultUIVC" id="FhW-dR-Mul" customClass="DefaultUIViewController" customModule="MobileLabUIKit" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DefaultUIVC" id="FhW-dR-Mul" customClass="DefaultUIViewController" customModule="UI_Basic_Kit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cpP-SS-x8m">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -643,4 +642,7 @@
             <point key="canvasLocation" x="-887.20000000000005" y="665.21739130434787"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="mobile-lab-symbol.png" width="1024" height="1024"/>
+    </resources>
 </document>
