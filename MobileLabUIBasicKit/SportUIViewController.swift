@@ -25,8 +25,8 @@ class SportUIViewController: UIViewController {
         super.viewDidLoad()
         
         // Set start button toggle states.
-        startStopButton.setTitle("Stop", for: .selected)
-        startStopButton.setTitle("Start", for: .normal)
+        startStopButton.setTitle("STOP", for: .selected)
+        startStopButton.setTitle("START", for: .normal)
     }
     
     @IBAction func handleStartButton(_ sender: UIButton) {

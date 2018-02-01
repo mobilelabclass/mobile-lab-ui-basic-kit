@@ -105,7 +105,7 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Swiss911BT-UltraCompressed" family="Swiss911 UCm BT" pointSize="23"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="07-3215"/>
+                                <state key="normal" title="06-9238"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zla-Sn-ihM">
                                 <rect key="frame" x="50" y="338" width="275" height="44"/>
@@ -115,7 +115,7 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Swiss911BT-UltraCompressed" family="Swiss911 UCm BT" pointSize="23"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="07-3215"/>
+                                <state key="normal" title="08-5012"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BZn-02-cXE">
                                 <rect key="frame" x="50" y="390" width="275" height="44"/>
@@ -125,7 +125,7 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Swiss911BT-UltraCompressed" family="Swiss911 UCm BT" pointSize="23"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="07-3215"/>
+                                <state key="normal" title="03-2341"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gsO-OM-ak7">
                                 <rect key="frame" x="50" y="442" width="275" height="44"/>
@@ -135,9 +135,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Swiss911BT-UltraCompressed" family="Swiss911 UCm BT" pointSize="23"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="07-3215"/>
+                                <state key="normal" title="18-4312"/>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mobile-lab-symbol.png" translatesAutoresizingMaskIntoConstraints="NO" id="QW9-A7-dt2">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mobile-lab-symbol" translatesAutoresizingMaskIntoConstraints="NO" id="QW9-A7-dt2">
                                 <rect key="frame" x="107" y="103" width="160" height="160"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="160" id="Tlv-yn-iDZ"/>
@@ -643,6 +643,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="mobile-lab-symbol.png" width="1024" height="1024"/>
+        <image name="mobile-lab-symbol" width="341" height="341"/>
     </resources>
 </document>

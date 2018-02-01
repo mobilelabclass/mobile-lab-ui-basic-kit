@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6A21E50C2018F3D600812A68 /* mobile-lab.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A21E50B2018F3D600812A68 /* mobile-lab.png */; };
-		6A21E5122018F5E000812A68 /* mobile-lab-symbol.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A21E5112018F5E000812A68 /* mobile-lab-symbol.png */; };
 		6ABC83EE201272680016BF10 /* RootPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC83DB201272680016BF10 /* RootPageViewController.swift */; };
 		6ABC83EF201272680016BF10 /* DefaultUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC83DC201272680016BF10 /* DefaultUIViewController.swift */; };
 		6ABC83F0201272680016BF10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ABC83DF201272680016BF10 /* Assets.xcassets */; };
@@ -25,9 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6A21E50B2018F3D600812A68 /* mobile-lab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mobile-lab.png"; sourceTree = "<group>"; };
-		6A21E5112018F5E000812A68 /* mobile-lab-symbol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mobile-lab-symbol.png"; sourceTree = "<group>"; };
-		6A2C69801FD5024100B47D4F /* UI Basic Kit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI Basic Kit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A2C69801FD5024100B47D4F /* MobileLabUIBasicKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileLabUIBasicKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ABC83DB201272680016BF10 /* RootPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootPageViewController.swift; sourceTree = "<group>"; };
 		6ABC83DC201272680016BF10 /* DefaultUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultUIViewController.swift; sourceTree = "<group>"; };
 		6ABC83DF201272680016BF10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -66,7 +62,7 @@
 		6A2C69811FD5024100B47D4F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6A2C69801FD5024100B47D4F /* UI Basic Kit.app */,
+				6A2C69801FD5024100B47D4F /* MobileLabUIBasicKit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -92,19 +88,9 @@
 				6ABC83E0201272680016BF10 /* LaunchScreen.storyboard */,
 				6ABC83DF201272680016BF10 /* Assets.xcassets */,
 				6ABC83E9201272680016BF10 /* Info.plist */,
-				6ABC83DE201272680016BF10 /* Images */,
 				6ABC83E4201272680016BF10 /* Fonts */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		6ABC83DE201272680016BF10 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				6A21E50B2018F3D600812A68 /* mobile-lab.png */,
-				6A21E5112018F5E000812A68 /* mobile-lab-symbol.png */,
-			);
-			path = Images;
 			sourceTree = "<group>";
 		};
 		6ABC83E4201272680016BF10 /* Fonts */ = {
@@ -135,7 +121,7 @@
 			);
 			name = MobileLabUIBasicKit;
 			productName = MobileLabUIKit;
-			productReference = 6A2C69801FD5024100B47D4F /* UI Basic Kit.app */;
+			productReference = 6A2C69801FD5024100B47D4F /* MobileLabUIBasicKit.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -180,10 +166,8 @@
 				6ABC83F5201272680016BF10 /* Swiss911-UC.ttf in Resources */,
 				6ABC83F4201272680016BF10 /* Swiss911-XC.ttf in Resources */,
 				6ABC83F2201272680016BF10 /* Main.storyboard in Resources */,
-				6A21E5122018F5E000812A68 /* mobile-lab-symbol.png in Resources */,
 				6ABC83F6201272680016BF10 /* Jura-Bold.ttf in Resources */,
 				6ABC83F3201272680016BF10 /* Jura-Regular.ttf in Resources */,
-				6A21E50C2018F3D600812A68 /* mobile-lab.png in Resources */,
 				6ABC83F0201272680016BF10 /* Assets.xcassets in Resources */,
 				6ABC83F1201272680016BF10 /* LaunchScreen.storyboard in Resources */,
 			);
@@ -340,11 +324,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HY8AUX8L27;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MobileLabUIBasicKit/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobilelabclass.MobileLabUIBasicKit;
-				PRODUCT_NAME = "UI Basic Kit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -357,11 +341,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HY8AUX8L27;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MobileLabUIBasicKit/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobilelabclass.MobileLabUIBasicKit;
-				PRODUCT_NAME = "UI Basic Kit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
