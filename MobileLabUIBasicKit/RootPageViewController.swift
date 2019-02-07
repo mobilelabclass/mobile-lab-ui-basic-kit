@@ -68,7 +68,7 @@ class RootPageViewController: UIPageViewController, UIPageViewControllerDataSour
         
         if (scrollView != nil && pageControl != nil) {
             scrollView?.frame = view.bounds
-            view.bringSubview(toFront: pageControl!)
+            view.bringSubviewToFront(pageControl!)
         }
     }
     
